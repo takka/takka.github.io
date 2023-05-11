@@ -143,6 +143,10 @@ nav:first-child .nav li:first-child a{
 .catalog-item-image {
     text-align: center;
     margin-top: 15px;
+    max-width: 250px;
+}
+.catalog-item-image img {
+    max-width: 100%;
 }
 .catalog-item h3 {
     font-size: 18px;
