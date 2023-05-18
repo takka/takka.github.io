@@ -178,17 +178,17 @@ nav:first-child .nav li:first-child a{
     height: 36px;
     text-align: center;
     cursor: pointer;
-}
-
-.catalog-item-title {
+}.catalog-item-title {
     font-size: 18px;
     font-weight: normal;
     margin: 0;
 }
+
 .catalog-item-title a {
     text-decoration: none;
     color: #000000;
 }
+
 .catalog-item-price {
     color: #000000;
     font-size: 18px;
@@ -196,20 +196,28 @@ nav:first-child .nav li:first-child a{
     margin-top: 10px;
     margin-bottom: 0;
 }
+
 .catalog-item-btn {
     background: #20B3DF;
-    border: none;
-    width: 36px;
+    border: none;    
     height: 36px;
     border-radius: 4px;
     padding-top: 6px;
     padding-bottom: 6px;
     cursor: pointer;
     margin-left: auto;
+
+    /*** hw task 2 ***/
 }
+
+.catalog-item-btn.success {
+    /*** hw task 3 ***/
+}
+
 .page-title {
     flex: 0 0 25%;
 }
+
 .page-desc {
     max-height: 54px;
     overflow: hidden;
@@ -233,6 +241,13 @@ nav:first-child .nav li:first-child a{
     padding: 0;
     cursor: pointer;
 }
+
 .more-btn:hover {
     text-decoration: none;
+}
+
+/**** Home Rules ****/
+.catalog-item-desc {
+    margin: 0;
+    /**** Home Rules ****/
 }
